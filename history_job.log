@@ -1,0 +1,20 @@
+Tue 28 Feb 2023 11:06:46 AM EST
+
+GPU_ID=
+python main.py -t --base configs/stable-diffusion/pokemon.yaml --gpus '6,' --scale_lr False --num_nodes 1 --check_val_every_n_epoch 10 --finetune_from '/localscratch/renjie/huggingface/hub/models--CompVis--stable-diffusion-v-1-4-original/snapshots/f0bb45b49990512c454cf2c5670b0952ef2f9c71/sd-v1-4-full-ema.ckpt' data.params.batch_size='4' lightning.trainer.accumulate_grad_batches='1' data.params.validation.params.n_gpus='1'
+---------------------------------------------------------------
+Tue 28 Feb 2023 11:07:02 AM EST
+1
+GPU_ID=
+python main.py -t --base configs/stable-diffusion/pokemon.yaml --gpus '6,' --scale_lr False --num_nodes 1 --check_val_every_n_epoch 10 --finetune_from '/localscratch/renjie/huggingface/hub/models--CompVis--stable-diffusion-v-1-4-original/snapshots/f0bb45b49990512c454cf2c5670b0952ef2f9c71/sd-v1-4-full-ema.ckpt' data.params.batch_size='4' lightning.trainer.accumulate_grad_batches='1' data.params.validation.params.n_gpus='1'
+---------------------------------------------------------------
+Tue 28 Feb 2023 11:10:36 AM EST
+2
+GPU_ID=
+python main.py -t --base configs/stable-diffusion/pokemon.yaml --gpus "6," --scale_lr False --num_nodes 1 --check_val_every_n_epoch 10 --finetune_from "/localscratch/renjie/huggingface/hub/models--CompVis--stable-diffusion-v-1-4-original/snapshots/f0bb45b49990512c454cf2c5670b0952ef2f9c71/sd-v1-4-full-ema.ckpt" data.params.batch_size="4" lightning.trainer.accumulate_grad_batches="1" data.params.validation.params.n_gpus="1"
+---------------------------------------------------------------
+Tue 28 Feb 2023 11:11:26 AM EST
+3
+GPU_ID=
+python main.py -t --base configs/stable-diffusion/pokemon.yaml --gpus "6," --scale_lr False --num_nodes 1 --check_val_every_n_epoch 10 --finetune_from "/localscratch/renjie/huggingface/hub/models--CompVis--stable-diffusion-v-1-4-original/snapshots/f0bb45b49990512c454cf2c5670b0952ef2f9c71/sd-v1-4-full-ema.ckpt" data.params.batch_size="4" lightning.trainer.accumulate_grad_batches="1" data.params.validation.params.n_gpus="1"
+---------------------------------------------------------------

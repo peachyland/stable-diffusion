@@ -15,3 +15,5 @@ logs
 im-examples/
 datasets
 scratch/
+cmd/
+logfile/
